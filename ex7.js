@@ -7,3 +7,10 @@
 //Valor total da compra acima de R$ 200,00: desconto de 20%.
 //Exiba o valor final da compra com o desconto aplicado.
 
+let dinheiro = prompt("insira o valor da sua compra:")
+
+if (dinheiro > 100) {
+    console.log ("Sem desconto")
+}
+
+if 

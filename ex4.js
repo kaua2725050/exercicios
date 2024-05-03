@@ -4,24 +4,21 @@
 //notas entre 5.0 e 7,0 ou a mensagem de REPROVADO para média inferior a 5,0.
 
 let nota1 = prompt("insira sua nota:")
+let notas2 = prompt("insira outra nota:")
+let notas3 = prompt("insira outra nota:")
+let notas4 = prompt("insira outra nota:")
 
 if (number == 7 && number > 7 && number < 7) {
     console.log("Aporvado!")
 }
 
-let notas2 = prompt("insira outra nota:")
-
 if (number == 7 && number > 7 && number < 7) {
     console.log("Recuperação")
 }
 
-let notas3 = prompt("insira outra nota:")
-
 if (number < 7) {
     console.log("Recuperação")
 }
-
-let notas4 = prompt("insira outra nota:")
 
 if (number > 7 && number == 7 && number < 7) {
     console.log("Reprovado")
