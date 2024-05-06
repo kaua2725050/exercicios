@@ -3,32 +3,39 @@
 //semana e exibe o nome correspondente a esse dia. Considere que 1 representa segunda-feira,
 //2 representa terça-feira e assim por diante.
 
-let day = prompt("escreva um número de 1 a 7:");
+let dia_semana = prompt("escreva um número de 1 a 7:");
 
-if (day == "1") {
-    console.log ("Hoje é Domingo!")
-}
+switch (dia_semana){
 
-if (day == "2") {
-    console.log ("Hoje é Segunda-Feira!");
-}
+    case "1":
+        console.log("Segunda-feira")
+        break;
 
-if (day == "3") {
-    console.log ("Hoje é Terça-Feira!");
-}
+        default:
+            console.log("O número inserido não é válido")
+            break;
 
-if (day == "4") {
-    console.log ("Hoje é Quarta-Feira!");
-}
+            case "2":
+        console.log("Terça-feira")
+        break;
 
-if (day == "5") {
-    console.log ("Hoje é Quinta-Feira!!");
-}
+        case "3":
+        console.log("Quarta-feira")
+        break;
 
-if (day == "6") {
-    console.log ("Hoje é Sexta-Feira!");
-}
+        case "4":
+        console.log("Quinta-feira")
+        break;
 
-if (day == "7") {
-    console.log ("Hoje é Sábado!");
+        case "5":
+        console.log("Sexta-feira")
+        break;
+
+        case "6":
+        console.log("Sábado")
+        break;
+
+        case "7":
+        console.log("Domingo")
+        break;
 }

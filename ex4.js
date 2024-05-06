@@ -3,23 +3,23 @@
 //notas e a mensagem de APROVADO para média superior ou igual a 7,0 RECUPERAÇÃO para
 //notas entre 5.0 e 7,0 ou a mensagem de REPROVADO para média inferior a 5,0.
 
-let nota1 = prompt("insira sua nota:")
-let notas2 = prompt("insira outra nota:")
-let notas3 = prompt("insira outra nota:")
-let notas4 = prompt("insira outra nota:")
+alert("Informe suas notas de 0 á 10")
 
-if (number == 7 && number > 7 && number < 7) {
-    console.log("Aporvado!")
+let nota1 = parseFloat(prompt("insira sua nota:"))
+let nota2 = parseFloat(prompt("insira sua nota:"))
+let nota3 = parseFloat(prompt("insira sua nota:"))
+let nota4 = parseFloat(prompt("insira sua nota:"))
+
+let media = (nota1 + nota2 + nota3 + nota4) /4
+
+    console.log(media)
+
+    if (media >= 7) {
+        console.log ("Aprovado!")
+    }
+else if (media < 7 && media >= 5){
+    console.log("Recuperação!")
 }
-
-if (number == 7 && number > 7 && number < 7) {
-    console.log("Recuperação")
-}
-
-if (number < 7) {
-    console.log("Recuperação")
-}
-
-if (number > 7 && number == 7 && number < 7) {
-    console.log("Reprovado")
+else{
+    console.log("Reprovado!")
 }

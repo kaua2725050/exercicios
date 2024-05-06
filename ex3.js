@@ -2,14 +2,10 @@
 //Faça um programa que receba um número do usuário e informe se este número é par ou
 //ímpar.
 
-let number = prompt("Escreva um número:")
+let num = parseInt(prompt("Escolha um número inteiro:"))
 
-let total=n/2;
-
-if (n%2 == 0) {
+if (num%2 == 0) {
 	console.log("Este número é Par");
-}
-
-else {
+}else {
 	console.log("Este número é Impar");
 }
